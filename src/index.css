@@ -52,9 +52,27 @@
     padding: 20px;
   }
 
-  .italianSection{
+  .courseSection{
     padding-top: 80px;
     align-content: center;
     text-align: center;
     justify-content: center;
+  }
+
+  .courseList{
+    text-decoration: none;
+  }
+
+  ul li{
+    text-decoration: none;
+  }
+
+  .buyButton{
+    background-color: greenyellow;
+  }
+
+  .buyButton:hover{
+    background-color: blueviolet;
+    transform:scale(1.1);
+    cursor:pointer;
   }

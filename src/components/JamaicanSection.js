@@ -1,17 +1,17 @@
 
-const italianSection = () => {
+const JamaicanSection = () => {
     return (
         <div className='courseSection'>
-            <h1 className='courseTitle'>Italian Course</h1>
-            <img src='italianFood.jpg' alt='italian food'/>
+            <h1 className='courseTitle'>Jamaican Course</h1>
+            <img src='jamaicanFood.jpg' alt='jamaican food'/>
             <h2>Course Includes:</h2>
             <div className='courseList'>
             <p>
                 <ul>
-                    <li>Step by step Baked Ziti Recipe</li>
-                    <li>Step by step Cheese Ravioli Recipe</li>
-                    <li>Step by step Lasagna Recipe</li>
-                    <li>Step by step Caccio e' Peppe Recipe</li>
+                    <li>Step by step Curried Chicken Recipe</li>
+                    <li>Step by step Jerk Chicken Recipe</li>
+                    <li>Step by step Oxtails Reacipe</li>
+                    <li>Step by step Roti Recipe</li>
                     <li>Food Prep Essentials Guide</li>
                     <li>Food Grouping Guide</li>
                     <li>Food Safety Guide</li>
@@ -26,4 +26,4 @@ const italianSection = () => {
     )
 }
 
-export default italianSection
+export default JamaicanSection

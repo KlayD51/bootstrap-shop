@@ -4,6 +4,11 @@ import NavbarToggle from 'react-bootstrap/esm/NavbarToggle'
 import LandingPage from './components/LandingPage'
 import CardSection from './components/CardSection'
 import ItalianSection from './components/italianSection'
+import JamaicanSection from './components/JamaicanSection'
+import ColumbianCourse from './components/ColumbianCourse'
+import IndianSection from './components/IndianSection'
+import Promo from './components/Promo'
+
 
 function App() {
   return (
@@ -34,6 +39,11 @@ function App() {
       <LandingPage />
       <CardSection />
       <ItalianSection />
+      <JamaicanSection />
+      <ColumbianCourse />
+      <IndianSection />
+      <br></br>
+      <Promo />
 
 
     </div>

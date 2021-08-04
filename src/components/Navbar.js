@@ -1,14 +1,11 @@
 import 'bootstrap/dist/css/bootstrap.css'
-import {Nav, Navbar, NavbarBrand, NavDropdown} from 'react-bootstrap'
-import NavbarToggle from 'react-bootstrap/esm/NavbarToggle'
-import LandingPage from './components/LandingPage'
-import CardSection from './components/CardSection'
-import ItalianSection from './components/italianSection'
+//import {Nav, Navbar, NavbarBrand, NavDropdown} from 'react-bootstrap'
+//import NavbarToggle from 'react-bootstrap/esm/NavbarToggle'
 
-function App() {
-  return (
-    <div className='app'>
-     <Navbar bg='info' variant='dark' fixed='top' expand='lg' collapseOnSelect>
+const Navbar = () => {
+    return (
+        <div>
+           <Navbar bg='info' variant='dark' fixed='top' expand='lg' collapseOnSelect>
       <Navbar.Brand>
         <h3 style={{width:'270px', height:'50px', padding:'10px'}}>International Kitchen</h3>
       </Navbar.Brand>
@@ -31,13 +28,8 @@ function App() {
       </Navbar.Collapse>
       </Navbar>
 
-      <LandingPage />
-      <CardSection />
-      <ItalianSection />
-
-
-    </div>
-  );
+        </div>
+    )
 }
 
-export default App;
+export default Navbar

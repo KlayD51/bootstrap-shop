@@ -1,3 +1,18 @@
 .by-info{
   background-color: blue;
 }
+
+LandingPage{
+  margin-top: 30px;
+}
+
+.PgImgHeader{
+  margin-top: 50px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+/*
+.app{
+  background-color: blueviolet;
+}*/

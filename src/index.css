@@ -62,8 +62,16 @@
   .courseList{
     text-decoration: none;
   }
+li{
+text-decoration: none;
+list-style: none;
+}
 
   ul li{
+    text-decoration: none;
+  }
+
+  p ul li{
     text-decoration: none;
   }
 
@@ -75,4 +83,17 @@
     background-color: blueviolet;
     transform:scale(1.1);
     cursor:pointer;
+  }
+
+  .footer{
+    padding-top: 90px;
+font-size: 14px;
+font-family: sans-serif;
+justify-content: center;
+text-align:center;
+  }
+
+  .doublePic{
+    display: flex;
+    flex-direction: column;
   }

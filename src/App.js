@@ -8,6 +8,8 @@ import JamaicanSection from './components/JamaicanSection'
 import ColumbianCourse from './components/ColumbianCourse'
 import IndianSection from './components/IndianSection'
 import Promo from './components/Promo'
+import Footer from './components/Footer'
+import Contact from './components/Contact'
 
 
 function App() {
@@ -44,6 +46,8 @@ function App() {
       <IndianSection />
       <br></br>
       <Promo />
+      <Contact />
+      <Footer />
 
 
     </div>

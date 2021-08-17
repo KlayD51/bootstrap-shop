@@ -4,8 +4,8 @@ const Promo = () => {
     return (
         <div className='courseSection'>
             <div className='doublePic'>
-            <h1 className='courseTitle'>Italian Course</h1>
-            <img src='promoBundle.jpg' alt='Promo Pic'/>
+            
+            
             <img src='foodBundle2.jpg' alt='Promo Pic 2'/>
             </div>
             <h2>Promotional Bundle:</h2>

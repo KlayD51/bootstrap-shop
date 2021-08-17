@@ -1,9 +1,13 @@
 
 import Card from "react-bootstrap/Card";
+import { Container, Row, Col} from "react-bootstrap"
 
 const CardSection = () => {
     return (
-        <div className='cardRow'>
+        <div className='cardRow' >  
+            
+            <Row >
+            <Col sm={12} md={4} lg={4} fluid>
             <Card style={{width:'300px', height:'450px', textAlign:'center', padding:'20px'}}>
             <Card.Img variant='top' src='foodPrep.jpg' alt='food prep'/>
             <Card.Body>
@@ -14,8 +18,10 @@ const CardSection = () => {
             </Card.Text>
             </Card.Body>
             </Card>
-            <div className='cardDivider'></div>
+            </Col>
+            
 
+            <Col  sm={12} md={4} lg={4} fluid>
             <Card style={{width:'300px', height:'450px', textAlign:'center', padding:'20px'}}>
             <Card.Img variant='top' src='foodGroups.jpg' alt='food groups'/>
             <Card.Body>
@@ -25,8 +31,10 @@ const CardSection = () => {
             </Card.Text>
             </Card.Body>
             </Card>
-            <div className='cardDivider'></div>
+            </Col>
+            
 
+            <Col   sm={12} md={4} lg={4} fluid>
             <Card style={{width:'300px', height:'450px', textAlign:'center', padding:'20px'}}>
             <Card.Img variant='top' src='foodSafety.jpg' alt='food Safety'/>
             <Card.Body>
@@ -36,6 +44,10 @@ const CardSection = () => {
             </Card.Text>
             </Card.Body>
             </Card>
+            </Col>
+            </Row>
+
+            
         </div>
     )
 }

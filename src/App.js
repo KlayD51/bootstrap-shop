@@ -10,11 +10,13 @@ import IndianSection from './components/IndianSection'
 import Promo from './components/Promo'
 import Footer from './components/Footer'
 import Contact from './components/Contact'
+import {Route, Link} from 'react-router-dom'
 
 
 function App() {
   return (
     <div className='app'>
+
      <Navbar bg='info' variant='dark' fixed='top' expand='lg' collapseOnSelect>
       <Navbar.Brand>
         <h3 style={{width:'270px', height:'50px', padding:'10px'}}>International Kitchen</h3>
